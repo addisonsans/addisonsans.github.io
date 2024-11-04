@@ -1,7 +1,115 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World!</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4">
+                        <span class="font-semibold text-gray-800 text-lg">Data Science Portfolio</span>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-600">Projects</a>
+                    <a href="#blog" class="text-gray-600 hover:text-blue-600">Blog</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-blue-600 text-white">
+        <div class="max-w-6xl mx-auto px-4 py-16">
+            <h1 class="text-4xl font-bold mb-4">Exploring the Art of Data Science</h1>
+            <p class="text-xl">Extracting, interpreting, and communicating knowledge through innovative analytics techniques</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">About Me</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <p class="text-gray-600 mb-4">
+                    My journey in data science began at the Perception, Attention, and Consciousness lab at the University of Florida, 
+                    where I worked as a Lab Manager and coder. This experience sparked my fascination with machine learning and data science.
+                </p>
+                <p class="text-gray-600">
+                    Today, I continue to explore new topics and datasets, always seeking to expand my knowledge and share insights 
+                    with others in the field.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-100 py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Projects</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Project Card Template -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/600/300" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Project Title</h3>
+                        <p class="text-gray-600 mb-4">Brief description of the project and its impact.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Python</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Latest Articles</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Blog Post Template -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-2">Article Title</h3>
+                    <p class="text-gray-600 mb-4">Preview of the article content...</p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800">Read more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-100 py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <p class="text-gray-600 mb-4">
+                    Interested in collaboration or have questions about my projects? 
+                    Feel free to reach out through any of the following platforms:
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/" class="text-gray-600 hover:text-blue-600">GitHub</a>
+                    <a href="https://linkedin.com/" class="text-gray-600 hover:text-blue-600">LinkedIn</a>
+                    <a href="mailto:your.email@example.com" class="text-gray-600 hover:text-blue-600">Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>© 2024 Data Science Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
